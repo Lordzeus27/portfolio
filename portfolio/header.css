@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+    filter: saturate(180%);
+}
+
+
+body{
+    background-image: url(bg/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 125px;  
+}
+.header{
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.logo{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+.right-header div{
+    margin-left: 20px;
+}
+.right-header button{
+    background-color: rgba(186, 101, 235, 0.5);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.right-header button:hover{
+    background-color: rgb(255, 0, 170);
+    color: black;
+    font-weight: 900;
+    transform: scale(0.9);
+}
+.left-header{
+    display: flex;
+    align-items: center;
+}
+.RDX{
+    padding-left: 50px;
+    font-size: 75px;
+}
+.welcome{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 75px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    min-width: 100%;
+    margin-top: -100px;
+}
+.line img{
+    width: 500px;
+}
+.about{
+    display: grid;
+    grid-template-rows: 75px 15px;
+    width: 1500px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+.about h1{
+    font-family: roboto;
+    text-align: center;
+}
+.about p{
+    font-size: 32px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+hr{
+    border: solid;
+    border-width: 1px;
+    opacity: 0.3;
+}
+.input{
+    display: flex;
+    
+}
+.works{
+    margin-top: 30px;
+    width: 750px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.video{
+    margin-top: 30px;
+    width:750px;
+    border-radius: 5px;
+    margin-left: 10px;
+    filter: saturate(50%);
+}
+.my-works{
+    width: 1520px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.my-works h1{
+    font-family: roboto;
+    text-align: center;
+}
+.bottom{
+    background-color: rgba(97, 77, 185, 0.15);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1500px;
+    border-radius: 20px;
+}
+.bottom h3{
+    font-size: 32px;
+    font-family: calibri;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bottom hr{
+    width: 1200px;
+    margin-bottom: 20px;
+}
+.bottom div{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.last{
+    background-color: rgba(97, 77, 185, 0.15);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.follow{
+    background-color: rgba(97, 77, 185, 0.15);
+    backdrop-filter: blur(12px);
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    border-radius: 41px;
+    
+}
+.follow p{
+    margin: 0px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 15px;
+    
+}
+.insta{
+    width: 25px;
+    transition: all 0.15s;
+}
+.insta:hover{
+    transform: scale(1.5);
+}
